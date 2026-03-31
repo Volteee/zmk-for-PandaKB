@@ -3,10 +3,14 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
   #additional module
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
+    - name: gpeye
+      url-base: https://github.com/GPeye
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
-    - name: infely
-      url-base: https://github.com/infely
+    - name: kevinpastor
+      url-base: https://github.com/kevinpastor
     - name: penguinchat
       url-base: https://github.com/penguinchat
   projects:
@@ -15,13 +19,15 @@ manifest:
       revision: v0.3
       import: app/west.yml
   #additional module
+    - name: hammerbeam-slideshow
+      remote: gpeye
+      revision: main
     - name: zmk-nice-oled
       remote: mctechnology17
-    - name: nice-view-battery
-      remote: infely
       revision: main
     - name: zmk-dongle-screen
       remote: penguinchat
+      revision: Penguinchat-patch-1
     - name: zmk-for-PandaKB.com-
       remote: penguinchat
       revision: PandaKB_Lily58
