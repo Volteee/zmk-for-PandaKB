@@ -3,12 +3,6 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
   #additional module
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
-    - name: kevinpastor
-      url-base: https://github.com/kevinpastor
     - name: penguinchat
       url-base: https://github.com/penguinchat
   projects:
@@ -17,9 +11,6 @@ manifest:
       revision: v0.3
       import: app/west.yml
   #additional module
-    - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
     - name: zmk-dongle-screen
       remote: penguinchat
       revision: Penguinchat-patch-1
