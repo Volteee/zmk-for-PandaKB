@@ -3,6 +3,8 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
   #additional module
+    - name: infely
+      url-base: https://github.com/infely
     - name: penguinchat
       url-base: https://github.com/penguinchat
   projects:
@@ -11,6 +13,9 @@ manifest:
       revision: v0.3
       import: app/west.yml
   #additional module
+    - name: nice-view-battery
+      remote: infely
+      revision: main
     - name: zmk-dongle-screen
       remote: penguinchat
       revision: Penguinchat-patch-1
