@@ -3,8 +3,6 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
   #additional module
-    - name: gpeye
-      url-base: https://github.com/GPeye
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
     - name: infely
@@ -12,13 +10,11 @@ manifest:
     - name: penguinchat
       url-base: https://github.com/penguinchat
   projects:
-@@ -19,11 +13,8 @@ manifest:
+    - name: zmk
+      remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
   #additional module
-    - name: hammerbeam-slideshow
-      remote: gpeye
-      revision: main
     - name: zmk-nice-oled
       remote: mctechnology17
     - name: nice-view-battery
