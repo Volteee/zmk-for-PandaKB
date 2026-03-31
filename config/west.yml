@@ -5,8 +5,6 @@ manifest:
   #additional module
     - name: petejohanson
       url-base: https://github.com/petejohanson
-    - name: gpeye
-      url-base: https://github.com/GPeye
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
     - name: kevinpastor
@@ -19,9 +17,6 @@ manifest:
       revision: v0.3
       import: app/west.yml
   #additional module
-    - name: hammerbeam-slideshow
-      remote: gpeye
-      revision: main
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
